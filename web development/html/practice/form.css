@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,
+
+body{
+    background-color: black;
+    color:white;
+}
+
+.parant{
+    width: 40%;
+    height: 80%;
+    padding: 1rem 2rem;
+    border: 1em solid white;
+gap: 2rem;
+align-items: center;
+justify-content: center;
+align-content: center;
+background-color: aqua;
+color: darkblue;
+
+
+input{
+
+width: 15%;
+height: 30%;
+
+
+}
+
+
+
+
+
+}

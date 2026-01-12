@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+
+body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.parant{
+    width: 100%;
+    height: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #E8DFD8;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    
+
+    .box1{
+        width: 100%;
+        height: 3%;
+        display: flex;
+        gap: 20%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+
+
+        .minibox1{
+            height: 100%;
+            width: 5%;
+
+        }
+
+        .minibox1:hover{
+            transform: scale(1.1);
+            border: 1px solid black;
+        }
+
+        .minibox2{
+            height: 100%;
+            width: 7%;
+        }
+
+        .minibox2:hover{
+            transform: scale(1.1);
+            border: 1px solid black;
+
+        }
+
+        .minibox3{
+            height: 100%;
+            width: 6%;
+        }
+
+        .minibox3:hover{
+            transform: scale(1.1);
+            border: 1px solid black;
+
+        }
+
+        .minibox4{
+            height: 100%;
+            width: 5%;
+        }
+
+        .minibox4:hover{
+            transform: scale(1.1);
+            border: 1px solid black;
+
+        }
+
+        
+    }
+
+    .box2{
+        width: 100%;
+        height: 90%;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        gap: 10%;
+
+
+        .main1{
+            height: 100%;
+            width: 60%;
+            padding-left: 50px;
+           display: flex;
+           flex-direction: column;
+           gap: 30%;
+
+            .content1{
+                width: 100%;
+                height: 50%;
+                gap: 10;
+                
+
+                .maincontent1{
+                    width: 100%;
+                    height: 50%;
+
+                    font-size: 6rem;
+                }
+
+                .maincontent2{
+                    width: 100%;
+                    height: 50%;
+
+                    font-size: 30px;
+                }
+            }
+
+            .content2{
+                width: 100%;
+                height: 30%;
+
+                .maincontent3{
+                    width: 100%;
+                    height: 25%;
+                    
+                }
+
+                .maincontent4{
+                    width: 100%;
+                    height: 25%;
+                    display: flex;
+                    gap: 3%;
+
+                    .mainbox1{
+                        width: 5%;
+                        height: 100%;
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            
+                            
+
+                        }
+
+                        
+                    }
+
+                    .mainbox1:hover{
+                        transform: scale(1.2);
+                    }
+
+                    .mainbox2{
+                        width: 5%;
+                        height: 100%;
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            
+                            
+
+                        }
+                    }
+                    .mainbox2:hover{
+                        transform: scale(1.2);
+                    }
+
+                    .mainbox3{
+                        width: 5%;
+                        height: 100%;
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            
+                            
+
+                        }
+                    }
+                    .mainbox3:hover{
+                        transform: scale(1.2);
+                    }
+
+                    .mainbox4{
+                        width: 5%;
+                        height: 100%;
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            
+                            
+
+                        }
+                    }
+                    .mainbox4:hover{
+                        transform: scale(1.2);
+                    }
+                }
+                
+            }
+
+
+        }
+
+        .main2{
+            height: 100%;
+            width: 40%;
+            border: 10px solid white;
+            border-radius: 10px;
+            box-shadow: 4px 4px 3px  rgb(12, 12, 14);
+            transform: scale(0.9);
+            transition: all 0.3s ease
+        ;
+
+            .img{
+                height: 100%;
+                width: 100%;
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                    
+                }
+
+                
+            }
+
+            
+
+        }
+
+        .main2:hover{
+                transform: none;
+            }
+    }
+
+
+}

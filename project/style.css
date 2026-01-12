@@ -1,0 +1,40 @@
+Body{
+    background-image: url(/project/360_F_640020435_rF59aZh0PfGn0X4iWS2VPHQf5uBZqIwR.webp);
+
+background-size: cover;
+ background-color: rgb(221, 201, 201);
+color: rgb(223, 218, 214);
+ 
+}
+p{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 20px;
+    font-style: italic;
+}
+.box2{
+    width: 15.6rem;
+    height: 10.5rem;
+    border: solid red;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    .content{
+        width: 50%;
+        height: fit-content;
+        padding: 1rem 2rem;
+        border-color: 2px solid white;
+        h2{
+            font-size: 30rem;
+        }
+
+    }
+
+}
+
+

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bitcount+Grid+Single:wght@100..900&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nata+Sans:wght@100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&display=swap');
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.parent{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+    .head{
+        width: 100%;
+        height: 10%;
+        background: #b60000;
+        font-size: 2rem;
+        font-family:fantasy;
+        text-align: center;
+        color: rgb(241, 238, 233);
+    }
+    .bar{
+        width: 100%;
+        height: 5%;
+        background-color: rgb(255, 0, 0);
+
+        .box1{
+            width: 90%;
+            height: 80%;
+            border-radius: 10px;
+            background-color: white;
+        }
+    }
+
+
+    .content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 5%;
+        
+        background-image: url(https://westdelraycollision.com/wp-content/uploads/2025/01/West-Delray-Collision-Center-onsite-rental-car-vehicle-lineup-photo.jpg);
+        background-size: cover;
+
+        .mainbox1{
+            width: 50%;
+            height: 100%;
+             padding-left: 20px;
+             
+             
+
+            .topic{
+                width: 100%;
+                height: 8%;
+                text-align: center;
+                align-content: center;
+                margin-top: 15px;
+                background-color: rgb(197, 187, 187);
+                
+                h2{
+                    font-size: 3rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: rgb(136, 68, 68);
+                
+                    
+                    
+                }
+            }
+            .minibox1{
+                height: 50%;
+                width: 100%;
+                display: flex;
+                padding-top: 20px;
+                gap: 5%;
+                
+
+                .cars1{
+                    height: 80%;
+                    width: 50%;
+                    background-color: rgb(201, 26, 26);
+                    border: 5px solid rgb(73, 69, 69);
+
+                    
+
+                    p{
+                        font-size: 11px;
+                        color: white ;
+                    }
+
+                    
+
+                    img{
+                        height: 80%;
+                        width: 100%;
+                    }
+                    
+                    
+                }
+
+                 .cars2{
+                    height: 80%;
+                    width: 50%;
+                    background-color: rgb(110, 91, 91);
+                     border: 5px solid rgb(73, 69, 69);
+
+                     img{
+                        height: 80%;
+                        width: 100%;
+                    }
+                }
+                .cars1:hover{
+                    scale: calc(1.1);
+                    transition: all 0.3s ease-in;
+                     cursor: pointer; 
+                     box-shadow: 5px 5px 5px rgb(83, 80, 80);
+                     
+                }
+
+                .cars2:hover{
+                    scale: calc(1.1);
+                    transition: all 0.3s ease-in;
+                     cursor: pointer; 
+                      box-shadow: 5px 5px 5px rgb(83, 80, 80);
+                }
+
+
+            }
+
+            .minibox3{
+                height: 50%;
+                width: 100%;
+                display: flex;
+                gap: 5%;
+
+                .cars3{
+                    height: 80%;
+                    width: 50%;
+                    background-color: rgb(110, 91, 91);
+                     border: 5px solid rgb(73, 69, 69);
+
+                     img{
+                        height: 80%;
+                        width: 100%;
+                    }
+                    
+                }
+
+                .cars3:hover{
+                    scale: calc(1.1);
+                    transition: all 0.3s ease-in;
+                     cursor: pointer; 
+                      box-shadow: 5px 5px 5px rgb(83, 80, 80);
+                }
+
+                 .cars4{
+                    height: 80%;
+                    width: 50%;
+                    background-color: rgb(110, 91, 91);
+                     border: 5px solid rgb(73, 69, 69);
+
+                     img{
+                        height: 80%;
+                        width: 100%;
+                    }
+                     p{
+                        font-size: 12px;
+                        color: white ;
+                    }
+                }
+
+                .cars4:hover{
+                    scale: calc(1.1);
+                    transition: all 0.3s ease-in;
+                     cursor: pointer;
+                      box-shadow: 5px 5px 5px rgb(83, 80, 80);
+                }
+
+
+            }
+        }
+
+        .mainbox2{
+            width: 50%;
+            height: 100%;
+            
+            
+        }
+    }
+}
+
+
